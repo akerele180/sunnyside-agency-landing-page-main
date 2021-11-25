@@ -102,7 +102,6 @@ section.top-grid p {
 .egg {
   background-repeat: no-repeat;
   background-image: url(/images/desktop/image-transform.jpg);
-  /* background-position: center; */
   background-size: cover;
 }
 .orange {
@@ -112,19 +111,9 @@ section.top-grid p {
   background-size: cover;
   text-align: center;
 }
-.orange p,
-.apple p {
-  color: hsl(0, 0%, 0%) !important;
-  transform: translateY(170px);
-}
-.orange h3,
-.apple h3 {
-  transform: translateY(150px);
-}
 .apple {
   background-repeat: no-repeat;
   background-image: url(/images/desktop/image-graphic-design.jpg);
-  /* background-position: center; */
   background-size: cover;
   text-align: center;
 }
@@ -133,6 +122,15 @@ section.top-grid p {
   background-image: url(/images/desktop/image-stand-out.jpg);
   background-position: center;
   background-size: cover;
+}
+.orange p,
+.apple p {
+  color: hsl(0, 0%, 0%) !important;
+  transform: translateY(170px);
+}
+.orange h3,
+.apple h3 {
+  transform: translateY(150px);
 }
 
 /* TESTIMONIALS SECTION */
@@ -163,6 +161,7 @@ section.testimonials article.container p {
   padding: 15px !important;
   color: var(--Grayishblue) !important;
 }
+
 /* LINK STYLING */
 h5::after {
   content: "";
@@ -189,9 +188,6 @@ aside.footer {
   text-align: center;
   background-color: var(--DarkModerateCyan);
   padding: 5rem 0;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 aside.image {
   display: grid;
@@ -232,10 +228,113 @@ footer .sugar-cubes {
 
 /* MEDIA QUERY */
 @media screen and (max-width: 768px) {
+  /* header */
+  h1 {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    margin-top: 3rem;
+    line-height: 3rem;
+  }
+  h1::after {
+    top: 75%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+  section.header-section {
+    background-image: url(/images/mobile/image-header.jpg);
+  }
   .web-nav-menu {
     display: none;
   }
   ul.hamburger-menu {
     display: block;
+  }
+  section.top-grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 0;
+    height: 350px;
+  }
+  .egg {
+    background-image: url(/images/mobile/image-transform.jpg);
+  }
+  .orange {
+    background-image: url(/images/mobile/image-photography.jpg);
+
+    text-align: center;
+  }
+  .apple {
+    background-image: url(/images/mobile/image-graphic-design.jpg);
+
+    text-align: center;
+  }
+  .cup {
+    background-image: url(/images/mobile/image-stand-out.jpg);
+  }
+  section.testimonials {
+    padding: 0 30px;
+  }
+  section.testimonials article.container {
+    display: block;
+  }
+  aside.image {
+    grid-template-columns: 1fr 1fr;
+    height: unset;
+  }
+  footer .milk-bottles {
+    background-image: url(/images/mobile/image-gallery-milkbottles.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+  }
+  footer .orange-plate {
+    background-image: url(/images/mobile/image-gallery-orange.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+  }
+  footer .cone {
+    background-image: url(/images/mobile/image-gallery-cone.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+  }
+  footer .sugar-cubes {
+    background-image: url(/images/mobile/image-gallery-sugar-cubes.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  section.testimonials h3 {
+    padding: 3rem 0;
+    font-size: 1rem;
+    letter-spacing: 3px;
+  }
+
+  section.testimonials article.container img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+  }
+  section.testimonials article.container p {
+    font-size: 0.85rem;
+    font-family: "Barlow", sans-serif;
+    line-height: 1.4rem;
+    padding: 20px 0;
+  }
+  .profile-info p {
+    padding: 5px !important;
+    margin-bottom: 2.5rem;
+  }
+  aside.footer {
+    padding: 2rem 0;
+  }
+  footer div.logo {
+    line-height: 3.5rem;
+  }
+  footer nav {
+    padding: 5px;
   }
 }
