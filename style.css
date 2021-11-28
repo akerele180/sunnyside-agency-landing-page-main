@@ -59,7 +59,7 @@ ul.hamburger-menu {
 section.header-section {
   height: 100vh;
   text-align: center;
-  background-image: url(/images/desktop/image-header.jpg);
+  background-image: url("./images/desktop/image-header.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -73,7 +73,7 @@ h1 {
 }
 h1::after {
   content: "";
-  background-image: url(/images/icon-arrow-down.svg);
+  background-image: url("./images/icon-arrow-down.svg");
   background-repeat: no-repeat;
   position: absolute;
   height: 150px;
@@ -101,25 +101,25 @@ section.top-grid p {
 }
 .egg {
   background-repeat: no-repeat;
-  background-image: url(/images/desktop/image-transform.jpg);
+  background-image: url("./images/desktop/image-transform.jpg");
   background-size: cover;
 }
 .orange {
   background-repeat: no-repeat;
-  background-image: url(/images/desktop/image-photography.jpg);
+  background-image: url("./images/desktop/image-photography.jpg");
   background-position: center;
   background-size: cover;
   text-align: center;
 }
 .apple {
   background-repeat: no-repeat;
-  background-image: url(/images/desktop/image-graphic-design.jpg);
+  background-image: url("./images/desktop/image-graphic-design.jpg");
   background-size: cover;
   text-align: center;
 }
 .cup {
   background-repeat: no-repeat;
-  background-image: url(/images/desktop/image-stand-out.jpg);
+  background-image: url("./images/desktop/image-stand-out.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -195,25 +195,25 @@ aside.image {
   height: 500px;
 }
 footer .milk-bottles {
-  background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+  background-image: url("./images/desktop/image-gallery-milkbottles.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 footer .orange-plate {
-  background-image: url(/images/desktop/image-gallery-orange.jpg);
+  background-image: url("./images/desktop/image-gallery-orange.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 footer .cone {
-  background-image: url(/images/desktop/image-gallery-cone.jpg);
+  background-image: url("./images/desktop/image-gallery-cone.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 footer .sugar-cubes {
-  background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+  background-image: url("./images/desktop/image-gallery-sugarcubes.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -241,7 +241,7 @@ footer .sugar-cubes {
     transform: translate(-50%, -50%);
   }
   section.header-section {
-    background-image: url(/images/mobile/image-header.jpg);
+    background-image: url("./images/mobile/image-header.jpg");
   }
   .web-nav-menu {
     display: none;
@@ -257,20 +257,20 @@ footer .sugar-cubes {
     height: 350px;
   }
   .egg {
-    background-image: url(/images/mobile/image-transform.jpg);
+    background-image: url("./images/mobile/image-transform.jpg");
   }
   .orange {
-    background-image: url(/images/mobile/image-photography.jpg);
+    background-image: url("./images/mobile/image-photography.jpg");
 
     text-align: center;
   }
   .apple {
-    background-image: url(/images/mobile/image-graphic-design.jpg);
+    background-image: url("./images/mobile/image-graphic-design.jpg");
 
     text-align: center;
   }
   .cup {
-    background-image: url(/images/mobile/image-stand-out.jpg);
+    background-image: url("./images/mobile/image-stand-out.jpg");
   }
   section.testimonials {
     padding: 0 30px;
@@ -283,25 +283,25 @@ footer .sugar-cubes {
     height: unset;
   }
   footer .milk-bottles {
-    background-image: url(/images/mobile/image-gallery-milkbottles.jpg);
+    background-image: url("./images/mobile/image-gallery-milkbottles.jpg");
     height: 250px;
     background-size: cover;
     background-position: center;
   }
   footer .orange-plate {
-    background-image: url(/images/mobile/image-gallery-orange.jpg);
+    background-image: url("./images/mobile/image-gallery-orange.jpg");
     height: 250px;
     background-size: cover;
     background-position: center;
   }
   footer .cone {
-    background-image: url(/images/mobile/image-gallery-cone.jpg);
+    background-image: url("./images/mobile/image-gallery-cone.jpg");
     height: 250px;
     background-size: cover;
     background-position: center;
   }
   footer .sugar-cubes {
-    background-image: url(/images/mobile/image-gallery-sugar-cubes.jpg);
+    background-image: url("./images/mobile/image-gallery-sugar-cubes.jpg");
     height: 250px;
     background-size: cover;
     background-position: center;
